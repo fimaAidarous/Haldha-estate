@@ -29,5 +29,12 @@ node api/index.js and in package.lock write the  "main": "index.js",
  note (restart the server eacj time you do some changes) so to not do that install npm i nodemon
  connect to database npm i mongoose then .env
  npm i dotenv (intan so socota wa initialize )dotenv.config();
-
-
+create user model in api creater folder and name it models
+adding timeStamp true which is going to tell mongodb to record two important extra
+information one is creation and the other is update below is Shema  username: type: String, required:true,
+create a test api route(this is e.g of route 
+app.get('/test',(req,res) => {
+    res.send('Hello World!');
+}
+);)
+http://localhost:500/api/user/test
