@@ -1,0 +1,33 @@
+npm create vite@latest client
+React --> j.script + swc
+cd client
+npm i
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p (then we got post css and tailwind config css )
+delete the app css in src and public in vite
+inside asset delete the React
+and inside app.jsx delete whole things in it and write rfc
+instal extension ES7+ React/Redux/React-Native snippets
+also install auto rename tag.console ninja,GitHub Capilot,GitHub Capilot chat and Tailwind CSS IntelliSense 
+git init 
+now creating pages and routes
+inside rsc create folder called pages and inside page create file called about.jsx
+inside write rfc(react functional component) 
+create Home,sigIn,SingOut,Profile and Home File and write each of one RFC 
+package React Router Dom
+npm i react-router-dom
+create header component 
+span  wa sections
+npm i react-icons for mobile and screen w-24 sm:w-64
+menu list ul and inside li
+create folder api in the terminal run the backage in the center whole of back end and front end
+cd ..
+npm init -y
+incdex.js in api and instal npm i express
+node api/index.js and in package.lock write the  "main": "index.js",
+ ("type": "module",)
+ note (restart the server eacj time you do some changes) so to not do that install npm i nodemon
+ connect to database npm i mongoose then .env
+ npm i dotenv (intan so socota wa initialize )dotenv.config();
+
+
