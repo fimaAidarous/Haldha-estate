@@ -45,7 +45,6 @@
 // { username: 'test', email: 'test@gmail.com', password: 'haldh' }  when to save inside database do it like this inside authenController.js it was like this before export const signup = (req, res) => {
 //  console.log(req.body);
 // }; change it to import User from '../model/userModel.js';
-
 // export const signup = async (req, res) => {
 //  const { username,email,password } = req.body;
 //  const newUser = new User ({ username, email, password});
@@ -55,3 +54,4 @@
 // install npm i bcryptjs
 // salt is just a hash number of variable
 // the way to make password hide is installing npm install 
+// create inside index.js a middleware and a fucntion to handle possible errors
