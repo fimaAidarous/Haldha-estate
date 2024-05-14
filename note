@@ -55,3 +55,4 @@
 // salt is just a hash number of variable
 // the way to make password hide is installing npm install 
 // create inside index.js a middleware and a fucntion to handle possible errors
+// complete sign up page UI
