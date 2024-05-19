@@ -13,8 +13,6 @@ mongoose
 .catch((err) => {
  console.log(err);
 });
-
-
 const app = express();
 
 app.use(express.json());
@@ -23,7 +21,6 @@ app.listen (500, () => {
     console.log('Server is running on port 500!');
 }
 );
-
 app.use("/api/user", userRouter);
 app.use('/api/auth',autherRouter);
 

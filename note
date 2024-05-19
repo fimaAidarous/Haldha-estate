@@ -58,3 +58,8 @@
 // complete sign up page UI
 // complete sign up functionality
 // api is backend and cleint is front end
+// create sign in API route
+// npm i jsonwebtoken
+
+
+//application for deployment is versatile
