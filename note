@@ -56,3 +56,5 @@
 // the way to make password hide is installing npm install 
 // create inside index.js a middleware and a fucntion to handle possible errors
 // complete sign up page UI
+// complete sign up functionality
+// api is backend and cleint is front end
