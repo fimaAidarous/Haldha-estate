@@ -65,6 +65,7 @@
 // Add redux toolkit (so we can have access to the user data in different places in
 //our application)// install inside the client side and 
 // inside rct create folder callled redux and inside it's create file called store.js
-
+// Add redux persist(hepls us store user data inside local)
+// inside client npm i redux-persist
 
 //application for deployment is versatile
