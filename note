@@ -68,7 +68,7 @@
 // Add redux persist(hepls us store user data inside local)
 // inside client npm i redux-persist
 // Add Google OAuth functionality (in the client install the npm install firebase)
-
+//update the header and make the progile page private
 
 
 //application for deployment is versatile
