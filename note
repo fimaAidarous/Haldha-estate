@@ -67,5 +67,8 @@
 // inside rct create folder callled redux and inside it's create file called store.js
 // Add redux persist(hepls us store user data inside local)
 // inside client npm i redux-persist
+// Add Google OAuth functionality (in the client install the npm install firebase)
+
+
 
 //application for deployment is versatile
