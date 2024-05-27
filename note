@@ -69,6 +69,10 @@
 // inside client npm i redux-persist
 // Add Google OAuth functionality (in the client install the npm install firebase)
 //update the header and make the progile page private
+//Complete profile page UI
+//complete image upload fucntionality
+
+
 
 
 //application for deployment is versatile
