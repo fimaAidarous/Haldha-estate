@@ -71,7 +71,8 @@
 //update the header and make the progile page private
 //Complete profile page UI
 //complete image upload fucntionality
-
+// create update user API route
+// npm i cookie-parser
 
 
 
