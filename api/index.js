@@ -2,8 +2,10 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import userRouter from './routes/userRouter.js';
-import autherRouter from './routes/authenRoute.js';
+import authenRouter from './routes/authenRoute.js';
 import cookieParser from 'cookie-parser';
+
+
 dotenv.config();
 
 mongoose
@@ -20,17 +22,17 @@ app.use(express.json());
 
 app.use(cookieParser());
 
-app.listen (500, () => {
-    console.log('Server is running on port 500!');
+app.listen (8000, () => {
+    console.log('Server is running on port 8000!');
 }
 );
 app.use("/api/user", userRouter);
-app.use('/api/auth',autherRouter);
+app.use('/api/auth',authenRouter);
 
 // Middleware
 app.use((err, req,res, next) => {
     const statusCode = err.statusCode || 500;
-    const message = err.message || 'internal Error';
+    const message = err.message || 'internal Server Error';
     return res.status(statusCode).json({
         success:false,
         statusCode,

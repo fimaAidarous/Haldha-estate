@@ -1,10 +1,11 @@
 import bcryptjs from 'bcryptjs';
 import User from '../model/userModel.js';
+import { errorHandler } from '../utils/error.js';
 
 
 export const test = (req, res) => {
     res.json({
-        message: 'Hello World! Korea yeeeeh',
+        message: 'Api route is working!',
     });
 };
 
